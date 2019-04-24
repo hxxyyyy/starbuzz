@@ -5,13 +5,78 @@ body {
   margin:           0px;
 }
 
-#header {
+header.top{
   background-color: #675c47;
-  margin:           10px;
+  margin:           10px 10px 10px 10px;
   height:           108px;
 }
+header.top img#ss1 {
+  float: left;
+  
+}
+nav{
 
-#main {
+
+}
+
+ul{
+  background-color: #efe5d0;
+  margin: 10PX 10px 0px 10px;
+  list-style-type: none;
+  padding: 5PX 0PX 5PX 0PX;
+}
+
+ul li{
+  display:inline;
+  padding:5px 10px 5px 10px;
+}
+
+ul li a:link,ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+ul li.s1{
+  background-color: #c9b9c9;
+}
+
+
+
+.hh1{
+  float: right;
+  background-image: url(images/header.gif);
+
+  width: 300px;
+  height: 100px;
+  background-position: -500px;
+}
+
+.hh2{
+    float: left;
+    background-image: url(images/header.gif);
+  
+    width: 300px;
+    height: 100px; 
+  }
+.hh3{
+
+  position: absolute;
+  top: 30px;
+  left:700px;
+}
+
+.c1{
+  position: fixed;
+  top: 350px;
+  left: -200px;
+}
+
+.c1:hover{
+  left: 0px;
+}
+
+section#main,section#blog {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
@@ -21,7 +86,7 @@ body {
   vertical-align: top;
 }
 
-#sidebar {
+aside{
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
@@ -33,7 +98,7 @@ body {
   vertical-align: top;
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -77,7 +142,7 @@ a:visited {
   display: table-row;
 }
 
-.drinks{
+section#drinks{
     display:table-cell;
     background-color: #efe5d0;
     width: 20%;
